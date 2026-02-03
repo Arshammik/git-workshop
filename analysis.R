@@ -2,8 +2,12 @@
 
 source("utils.R")
 
-# Simulate a dataset for analysis
+#I have better comment to mention
+print("Hello, World!")
+
+# Simulate a dataset
 set.seed(12345)
+
 data_points <- rnorm(100, mean = 50, sd = 10)
 
 # Calculate summary statistics
